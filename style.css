@@ -12,6 +12,13 @@ body {
   scroll-behavior: smooth;
 }
 
+header{
+  position: sticky;
+  top: 0%;
+  background: white;
+  z-index: 3;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -20,6 +27,7 @@ body {
   margin-left: 8%;
   margin-right: 8%;
   font-weight: bolder;
+  background-color: white;
 }
 .navbar__s0 {
   display: none;
@@ -136,6 +144,9 @@ body {
 }
 .ad {
   margin-top: 50px;
+}
+.container h2{
+  margin-top: 1em;
 }
 .trip-banner {
   display: flex;
